@@ -1,8 +1,11 @@
-# preset-python-venv
-
+# mitm-degubber
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=686856069&skip_quickstart=true)
 
-Preset for development on Python using venv.
+`mitmproxy` を使ったモバイル端末用のデバッグツールです。
+
+**できること**
+- HTTPS通信の閲覧: iOS Simulator の HTTPS 通信について暗号化前のデータを閲覧する
+- 通信の改竄: iOS Simulator を介して行われるリクエストを改竄し、APIのデータをテストデータに変更したり、HTMLなどの静的ファイルをローカルのファイルに差し替える
 
 **included:**
 - Lint and Format
