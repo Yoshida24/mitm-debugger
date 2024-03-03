@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set port number
-port=8081
+port=9081
 
 . .venv/bin/activate
 set -a && . ./.env && set +a
